@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText } from 'lucide-react';
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
@@ -12,14 +13,23 @@ const Hero = () => {
             <h2 className="text-sm font-medium text-sky-300">Front-end Developer</h2>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 bg-gradient-to-r from-white via-sky-200 to-white bg-clip-text text-transparent">
-            Tarek Ahmed
+            Tarek Ahmed Elrashidy
           </h1>
-          <p className="text-lg text-slate-300 mb-12 leading-relaxed">
-            Skilled front-end developer experienced in creating and maintaining interactive,
-            and performance-optimized web applications. Proficient in modern front-end technologies
-            including React.js, Next.js, and more.
+          <p className="text-lg text-slate-300 mb-8 leading-relaxed">
+            Skilled front-end developer experienced in creating and maintaining interactive, 
+            and performance-optimized web applications. Proficient in modern front-end technologies 
+            including HTML5, CSS3, JavaScript, and popular frameworks such as React.js and Next.js.
           </p>
-          <div className="flex justify-center space-x-6">
+          <div className="flex flex-wrap gap-4 justify-center mb-12">
+            <p className="flex items-center text-slate-300">
+              <span className="font-medium text-sky-300 mr-2">Location:</span> Alexandria, Egypt
+            </p>
+            <p className="flex items-center text-slate-300">
+              <span className="font-medium text-sky-300 mr-2">Phone:</span>
+              <a href="tel:+201129689368" className="hover:text-white transition-colors">+20 1129689368</a>
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4">
             <a
               href="https://github.com/marstarek"
               target="_blank"

@@ -3,9 +3,32 @@ import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 
 const skillsData = {
-  "Frontend": ["React.js", "Next.js", "HTML", "CSS", "JavaScript/ECMAScript", "Tailwind", "Bootstrap"],
-  "Tools & Others": ["Git", "Firebase", "Postman", "Adobe XD", "Adobe Photoshop"],
-  "Testing": ["Unit Testing", "TypeScript"],
+  "Frontend Development": [
+    "React.js",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "JavaScript/ECMAScript",
+    "TypeScript",
+    "Tailwind",
+    "Bootstrap",
+    "Redux",
+    "SASS"
+  ],
+  "Tools & Software": [
+    "Git",
+    "Firebase",
+    "Postman",
+    "Adobe XD",
+    "Adobe Photoshop",
+    "Version Control (GitHub & GitLab)"
+  ],
+  "Soft Skills": [
+    "Problem-solving",
+    "Self-learner",
+    "Adaptability",
+    "Well-organized"
+  ]
 };
 
 const Skills = () => {
@@ -16,7 +39,7 @@ const Skills = () => {
           Skills & Technologies
         </h2>
         <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
-          A curated list of my technical skills and expertise
+          A comprehensive overview of my technical expertise and professional capabilities
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {Object.entries(skillsData).map(([category, skills]) => (
