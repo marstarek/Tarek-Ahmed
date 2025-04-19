@@ -11,34 +11,42 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-gradient-to-b from-slate-900 to-slate-800">
       <div className="container max-w-2xl">
-        <h2 className="section-title text-center">Get In Touch</h2>
+        <h2 className="text-4xl font-bold text-center text-white mb-4">
+          Get In Touch
+        </h2>
+        <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
+          Have a question or want to work together?
+        </p>
         <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
+          <div className="space-y-2">
             <Input
               type="text"
               placeholder="Your Name"
               required
-              className="w-full"
+              className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-400 focus:ring-sky-400/10"
             />
           </div>
-          <div>
+          <div className="space-y-2">
             <Input
               type="email"
               placeholder="Your Email"
               required
-              className="w-full"
+              className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-400 focus:ring-sky-400/10"
             />
           </div>
-          <div>
+          <div className="space-y-2">
             <Textarea
               placeholder="Your Message"
               required
-              className="w-full min-h-[150px]"
+              className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-400 focus:ring-sky-400/10 min-h-[150px]"
             />
           </div>
-          <Button type="submit" className="w-full bg-sky-600 hover:bg-sky-700">
+          <Button
+            type="submit"
+            className="w-full bg-sky-500 hover:bg-sky-600 text-white transition-colors"
+          >
             Send Message
           </Button>
         </form>

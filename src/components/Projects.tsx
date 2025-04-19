@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Github, Link } from 'lucide-react';
+import { Card, CardContent } from "@/components/ui/card";
 
 interface Project {
   title: string;
@@ -31,51 +32,61 @@ const projectsData: Project[] = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-20 bg-gradient-to-b from-slate-900 to-slate-800">
       <div className="container">
-        <h2 className="section-title text-center">Featured Projects</h2>
+        <h2 className="text-4xl font-bold text-center text-white mb-4">
+          Featured Projects
+        </h2>
+        <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
+          Explore some of my recent work and technical projects
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projectsData.map((project, index) => (
-            <div key={index} className="card group">
-              <div className="aspect-video mb-4 overflow-hidden rounded-lg">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-slate-600 mb-4">{project.description}</p>
-              <div className="mb-4">
-                {project.techStack.map((tech, index) => (
-                  <span key={index} className="tech-badge">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex space-x-4">
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-slate-600 hover:text-sky-600"
-                >
-                  <Github className="w-5 h-5 mr-2" />
-                  Code
-                </a>
-                {project.liveUrl && (
+            <Card key={index} className="group bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-colors duration-300">
+              <CardContent className="p-6">
+                <div className="aspect-video mb-6 overflow-hidden rounded-lg bg-slate-800">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <h3 className="text-2xl font-semibold text-white mb-3">{project.title}</h3>
+                <p className="text-slate-300 mb-4 line-clamp-3">{project.description}</p>
+                <div className="mb-6 flex flex-wrap gap-2">
+                  {project.techStack.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 text-sm font-medium rounded-full bg-sky-500/10 text-sky-300 border border-sky-500/20"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex space-x-4">
                   <a
-                    href={project.liveUrl}
+                    href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-slate-600 hover:text-sky-600"
+                    className="flex items-center text-slate-300 hover:text-white transition-colors"
                   >
-                    <Link className="w-5 h-5 mr-2" />
-                    Live Demo
+                    <Github className="w-5 h-5 mr-2" />
+                    Code
                   </a>
-                )}
-              </div>
-            </div>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-slate-300 hover:text-white transition-colors"
+                    >
+                      <Link className="w-5 h-5 mr-2" />
+                      Live Demo
+                    </a>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>
