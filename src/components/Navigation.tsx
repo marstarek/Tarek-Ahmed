@@ -11,6 +11,9 @@ const Navigation = () => {
             Tarek Ahmed
           </Link>
           <div className="hidden md:flex space-x-8">
+            <a href="#home" className="text-slate-300 hover:text-white transition-colors">Home</a>
+            <a href="#about" className="text-slate-300 hover:text-white transition-colors">About</a>
+            <a href="#experience" className="text-slate-300 hover:text-white transition-colors">Experience</a>
             <a href="#projects" className="text-slate-300 hover:text-white transition-colors">Projects</a>
             <a href="#skills" className="text-slate-300 hover:text-white transition-colors">Skills</a>
             <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
