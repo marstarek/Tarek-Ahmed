@@ -6,28 +6,40 @@ const skillsData = {
   "Frontend Development": [
     "React.js",
     "Next.js",
-    "HTML",
-    "CSS",
+    "Vue.js",
+    "HTML5",
+    "CSS3",
     "JavaScript/ECMAScript",
     "TypeScript",
-    "Tailwind",
+    "Tailwind CSS",
     "Bootstrap",
     "Redux",
-    "SASS"
+    "SASS",
+    "jQuery"
+  ],
+  "Backend & Database": [
+    "Node.js",
+    "PHP",
+    "MongoDB",
+    "Firebase",
+    "SQL"
   ],
   "Tools & Software": [
     "Git",
-    "Firebase",
+    "GitHub & GitLab",
+    "Gulp",
     "Postman",
     "Adobe XD",
     "Adobe Photoshop",
-    "Version Control (GitHub & GitLab)"
+    "Version Control"
   ],
   "Soft Skills": [
     "Problem-solving",
     "Self-learner",
     "Adaptability",
-    "Well-organized"
+    "Well-organized",
+    "Team Collaboration",
+    "Customer Focus"
   ]
 };
 
@@ -41,7 +53,7 @@ const Skills = () => {
         <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
           A comprehensive overview of my technical expertise and professional capabilities
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {Object.entries(skillsData).map(([category, skills]) => (
             <Card key={category} className="bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-colors duration-300">
               <CardContent className="p-6">

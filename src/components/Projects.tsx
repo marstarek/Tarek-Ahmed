@@ -27,6 +27,38 @@ const projectsData: Project[] = [
     githubUrl: "https://york-e.com/",
     liveUrl: "https://york-e.com/",
     image: "/lovable-uploads/7a9f2f7c-f53b-49b7-8744-9e45af28a764.png"
+  },
+  {
+    title: "Andalus Programming Education Center",
+    description: "Educational platform for programming courses and training programs with modern UI and comprehensive course management system.",
+    techStack: ["React", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/marstarek/andalus",
+    liveUrl: "https://alandalous.netlify.app/",
+    image: "/lovable-uploads/2d52a687-cec4-467f-a539-c61f87910077.png"
+  },
+  {
+    title: "Hotel Booking Website",
+    description: "Full-featured hotel booking platform with search functionality, room selection, and reservation management system.",
+    techStack: ["React", "JavaScript", "CSS", "HTML"],
+    githubUrl: "https://github.com/marstarek/hotel-booking-website",
+    liveUrl: "https://hotel-booking-website-khaki.vercel.app/",
+    image: "/lovable-uploads/7a9f2f7c-f53b-49b7-8744-9e45af28a764.png"
+  },
+  {
+    title: "React Movies Platform",
+    description: "Movie discovery platform with search, filtering, and detailed movie information using modern React patterns.",
+    techStack: ["React", "JavaScript", "CSS", "API Integration"],
+    githubUrl: "https://github.com/marstarek/React.JS-movies-platform",
+    liveUrl: "https://industrious-digestion.surge.sh/",
+    image: "/lovable-uploads/2d52a687-cec4-467f-a539-c61f87910077.png"
+  },
+  {
+    title: "Netflix Clone",
+    description: "Netflix-inspired streaming platform built with Sass, Gulp, and Bootstrap featuring responsive design and modern UI.",
+    techStack: ["Sass", "Gulp", "Bootstrap", "JavaScript"],
+    githubUrl: "https://github.com/marstarek/Netflix-using-sass-Gulp-bootstrap",
+    liveUrl: "https://marstarek.github.io/Netflix-using-sass-Gulp-bootstrap/",
+    image: "/lovable-uploads/7a9f2f7c-f53b-49b7-8744-9e45af28a764.png"
   }
 ];
 
@@ -40,7 +72,7 @@ const Projects = () => {
         <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
           Explore some of my recent work and technical projects
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
             <Card key={index} className="group bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-colors duration-300">
               <CardContent className="p-6">

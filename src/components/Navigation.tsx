@@ -16,6 +16,7 @@ const Navigation = () => {
             <a href="#experience" className="text-slate-300 hover:text-white transition-colors">Experience</a>
             <a href="#projects" className="text-slate-300 hover:text-white transition-colors">Projects</a>
             <a href="#skills" className="text-slate-300 hover:text-white transition-colors">Skills</a>
+            <a href="#certificates" className="text-slate-300 hover:text-white transition-colors">Certificates</a>
             <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
           </div>
         </div>

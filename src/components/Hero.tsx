@@ -29,6 +29,17 @@ const Hero = () => {
               <a href="tel:+201129689368" className="hover:text-white transition-colors">+20 1129689368</a>
             </p>
           </div>
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            <a
+              href="https://jealous-beef.surge.sh/files/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-lg transition-colors duration-300"
+            >
+              <FileText className="w-5 h-5 mr-2" />
+              Download CV
+            </a>
+          </div>
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href="https://github.com/marstarek"
