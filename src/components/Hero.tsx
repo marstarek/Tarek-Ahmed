@@ -1,51 +1,29 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, FileText } from 'lucide-react';
+import { Github, Linkedin, Mail, Youtube, ExternalLink } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen py-20 overflow-hidden bg-gradient-to-br from-slate-900 via-sky-900 to-slate-900">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMDIwMjAiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAyOHYySDI0di0yaDEyek0zNiAyMnYySDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-10" />
-      <div className="container relative">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="mb-8 inline-block p-2 bg-white/5 backdrop-blur-lg rounded-full">
-            <h2 className="text-sm font-medium text-sky-300">Front-end Developer</h2>
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 bg-gradient-to-r from-white via-sky-200 to-white bg-clip-text text-transparent">
-            Tarek Ahmed Elrashidy
+    <section id="home" className="min-h-screen flex items-center justify-center bg-background">
+      <div className="container">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6">
+            Tarek Ahmed
           </h1>
-          <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-            Skilled front-end developer experienced in creating and maintaining interactive, 
-            and performance-optimized web applications. Proficient in modern front-end technologies 
-            including HTML5, CSS3, JavaScript, and popular frameworks such as React.js and Next.js.
+          <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">
+            Front-End Developer & Content Creator
+          </h2>
+          <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-3xl mx-auto">
+            T-shaped software developer specialized in frontend web development, driven by a passion for teaching, mentoring, and content creation, and actively engaged in open-source initiatives.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center mb-12">
-            <p className="flex items-center text-slate-300">
-              <span className="font-medium text-sky-300 mr-2">Location:</span> Alexandria, Egypt
-            </p>
-            <p className="flex items-center text-slate-300">
-              <span className="font-medium text-sky-300 mr-2">Phone:</span>
-              <a href="tel:+201129689368" className="hover:text-white transition-colors">+20 1129689368</a>
-            </p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <a
-              href="https://jealous-beef.surge.sh/files/cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-lg transition-colors duration-300"
-            >
-              <FileText className="w-5 h-5 mr-2" />
-              Download CV
-            </a>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4">
+          
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
             <a
               href="https://github.com/marstarek"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 text-white bg-white/5 hover:bg-white/10 rounded-full backdrop-blur-lg transition-colors duration-300"
+              className="p-3 text-foreground hover:text-muted-foreground transition-colors"
             >
               <Github className="w-6 h-6" />
             </a>
@@ -53,16 +31,36 @@ const Hero = () => {
               href="https://linkedin.com/in/tarek-ahmed-iti"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 text-white bg-white/5 hover:bg-white/10 rounded-full backdrop-blur-lg transition-colors duration-300"
+              className="p-3 text-foreground hover:text-muted-foreground transition-colors"
             >
               <Linkedin className="w-6 h-6" />
             </a>
             <a
+              href="https://youtube.com/@tarekahmed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 text-foreground hover:text-muted-foreground transition-colors"
+            >
+              <Youtube className="w-6 h-6" />
+            </a>
+            <a
               href="mailto:tarekahmed1568@gmail.com"
-              className="p-4 text-white bg-white/5 hover:bg-white/10 rounded-full backdrop-blur-lg transition-colors duration-300"
+              className="p-3 text-foreground hover:text-muted-foreground transition-colors"
             >
               <Mail className="w-6 h-6" />
             </a>
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button variant="outline" size="lg" asChild>
+              <a href="#projects" className="inline-flex items-center">
+                View My Work
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
+            </Button>
+            <Button size="lg" asChild>
+              <a href="#connect">Get In Touch</a>
+            </Button>
           </div>
         </div>
       </div>

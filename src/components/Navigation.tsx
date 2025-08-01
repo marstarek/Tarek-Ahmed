@@ -4,20 +4,22 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/50 backdrop-blur-lg border-b border-white/10">
-      <div className="container mx-auto px-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
+      <div className="container">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold bg-gradient-to-r from-sky-400 to-sky-200 bg-clip-text text-transparent">
+          <Link to="/" className="text-xl font-bold text-foreground">
             Tarek Ahmed
           </Link>
-          <div className="hidden md:flex space-x-8">
-            <a href="#home" className="text-slate-300 hover:text-white transition-colors">Home</a>
-            <a href="#about" className="text-slate-300 hover:text-white transition-colors">About</a>
-            <a href="#experience" className="text-slate-300 hover:text-white transition-colors">Experience</a>
-            <a href="#projects" className="text-slate-300 hover:text-white transition-colors">Projects</a>
-            <a href="#skills" className="text-slate-300 hover:text-white transition-colors">Skills</a>
-            <a href="#certificates" className="text-slate-300 hover:text-white transition-colors">Certificates</a>
-            <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
+          <div className="hidden md:flex space-x-6">
+            <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors text-sm">About</a>
+            <a href="#skills" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Skills</a>
+            <a href="#experience" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Experience</a>
+            <a href="#education" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Education</a>
+            <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Projects</a>
+            <a href="#open-source" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Open Source</a>
+            <a href="#youtube" className="text-muted-foreground hover:text-foreground transition-colors text-sm">YouTube</a>
+            <a href="#articles" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Articles</a>
+            <a href="#connect" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Connect</a>
           </div>
         </div>
       </div>
