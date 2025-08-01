@@ -12,10 +12,10 @@ const Hero = () => {
             Tarek Ahmed
           </h1>
           <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Front-End Developer & Content Creator
+            Front-End Developer 
           </h2>
           <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-3xl mx-auto">
-            T-shaped software developer specialized in frontend web development, driven by a passion for teaching, mentoring, and content creation, and actively engaged in open-source initiatives.
+          Front-End Developer with strong experience building interactive, high-performance, and visually appealing web applications. Proficient in modern front-end technologies such as HTML5, CSS3, JavaScript, React.js, and Next.js. Adept at creating responsive designs that provide seamless user experiences across devices. Strong collaborator with cross-functional teams and a problem-solving mindset.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -35,14 +35,7 @@ const Hero = () => {
             >
               <Linkedin className="w-6 h-6" />
             </a>
-            <a
-              href="https://youtube.com/@tarekahmed"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 text-foreground hover:text-muted-foreground transition-colors"
-            >
-              <Youtube className="w-6 h-6" />
-            </a>
+       
             <a
               href="mailto:tarekahmed1568@gmail.com"
               className="p-3 text-foreground hover:text-muted-foreground transition-colors"

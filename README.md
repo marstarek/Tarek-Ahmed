@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# Tarek Ahmed Elrashidy
 
-## Project info
+Front-End Developer with strong experience building interactive, high-performance, and visually appealing web applications. Proficient in modern front-end technologies such as HTML5, CSS3, JavaScript, React.js, and Next.js. Adept at creating responsive designs that provide seamless user experiences across devices. Strong collaborator with cross-functional teams and a problem-solving mindset.
 
-**URL**: https://lovable.dev/projects/b93e041b-2e3a-4059-a417-03d03854b4bb
+---
 
-## How can I edit this code?
+## 📌 Experience
 
-There are several ways of editing your application.
+### 🔹 Front End Developer | Caduceus Lane  
+**Jun 2023 – Present | Alexandria**  
+- Designed and implemented innovative digital solutions.
+- Transformed traditional medical content tools into cutting-edge digital platforms.
+- Collaborated with cross-functional teams to conceptualize, plan, and execute large-scale projects.
 
-**Use Lovable**
+**Projects:**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b93e041b-2e3a-4059-a417-03d03854b4bb) and start prompting.
+**1. Exhibit Package**  
+Displays 3D booths and event items; enables users to customize designs by adding materials, logos, images, or videos.  
+**Tech:** Three.js, TypeScript, HTML, CSS
 
-Changes made via Lovable will be committed automatically to this repo.
+**2. Exhibit Marketplace**  
+A 3D marketplace for booths and event items, enabling customization, cart management, and purchase flow.  
+**Tech:** Three.js, Next.js, Fabric.js, TypeScript, Node.js
 
-**Use your preferred IDE**
+**3. Inform, Certify, Assent, Nametag**  
+Comprehensive event management platform offering automated workflows, identity design, registration, engagement tools, and reporting.  
+**Tech:** React.js, TypeScript, Vite, Tailwind, Laravel
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**4. Themis**  
+Website to manage purchase orders and quotations with an approval process and reporting.  
+**Tech:** JavaScript, Bootstrap, HTML, CSS
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+### 🔹 Front End Developer | Sphinx  
+**May 2022 – Jun 2023 | Alexandria**  
+- Developed educational web apps and maintained existing platforms.
+- Digitalized traditional content and supervised education systems.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**Projects:**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**1. York**  
+An educational system providing assessment banks, digital libraries, games, and resources.  
+**Tech:** jQuery, Bootstrap, HTML, CSS  
+🔗 [york-e.com](https://york-e.com)
 
-# Step 3: Install the necessary dependencies.
-npm i
+**2. My-HCMS**  
+Human Capital Management System: handles attendance, leave, teams, tasks, and performance tracking.  
+**Tech:** jQuery, SQL, Bootstrap, PHP, HTML, CSS  
+🔗 [GitHub Repo](https://github.com/marstarek/new-hcms)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+### 🔹 Software Tester | Civil Soft  
+**Feb 2022 – May 2022 | Alexandria**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 🔹 IT Help Desk | GIECO  
+**Dec 2020 – Aug 2021 | Cairo**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧠 Skills
 
-This project is built with:
+- React.js, Redux, Next.js
+- HTML, CSS, SASS, JavaScript (ES6+), TypeScript
+- Tailwind, Bootstrap, Styled-Components
+- jQuery, Firebase, Vite, Three.js
+- Unit Testing, GitHub & GitLab
+- Adobe Photoshop, Adobe XD
+- Postman
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🎓 Education
 
-Simply open [Lovable](https://lovable.dev/projects/b93e041b-2e3a-4059-a417-03d03854b4bb) and click on Share -> Publish.
+**Front-End Track – ITI Alexandria Branch**  
+*Aug 2021 – Dec 2021* | Grade: Very Good  
+**Graduation Project:** "ITIian" – Social platform for ITI community  
+🔗 [GitHub Repo](https://github.com/marstarek/ITIian.git)
 
-## Can I connect a custom domain to my Lovable project?
+**Alexandria University – Faculty of Commerce (MIS)**  
+*Sep 2015 – Jun 2019* | Grade: Very Good | Rank: 7th  
+**Graduation Project:** "#Shebak" – Android + web app to help students find scholarships  
+**Grade:** Excellent
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🎓 Training
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Oracle Database & SQL | Eigabi & Alexandria (Dec 2017 – Feb 2018)  
+- Android Development with Java | Faculty of Commerce (May 2018 – Aug 2018)
+
+---
+
+## 🌱 Soft Skills
+
+- Problem-solving
+- Self-learning
+- Adaptability
+- Organization
+
+---
+
+## 🙌 Extracurricular Activities
+
+- Volunteer at Science Lovers Association – supporting youth training in handicrafts and community aid.
+
+---
+
+## 📇 Personal Info
+
+- 📍 Location: Alexandria, Egypt  
+- 📞 Phone: +20 1129689368 / +20 1068811574  
+- 📧 Email: tarekahmed1568@gmail.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/tarek-ahmed-iti)  
+- 💻 [GitHub](https://github.com/marstarek)  
+- 🪪 DOB: March 3, 1997  
+- 🪖 Military Status: Completed  
