@@ -29,7 +29,7 @@ const Education = () => {
     <section id="education" className="py-20 bg-background">
       <div className="container">
         <h2 className="section-title">Education & Certificates</h2>
-        <p className="section-subtitle">My academic journey and achievements</p>
+        <p className="section-subtitle">My academic achievements</p>
         
         <div className="space-y-8">
           {education.map((edu, index) => (
