@@ -4,23 +4,26 @@ import { GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Applied Science in Physics",
-      period: "2019 - 2023",
-      institution: "Kafr El-Sheikh University",
-      location: "Kafr El-Sheikh, Egypt",
+      degree: "Front End Track",
+      period: "Aug 2021 - Dec 2021",
+      institution: "Information Technology Institute (ITI), Alexandria Branch",
+      location: "Alexandria, Egypt",
       achievements: [
-        "Our graduation project focuses on the development of a laser-controlled alert circuit, and studying some of its applications, including security systems, and measuring the level of wheat stored in silos, and by adjusting the sensitivity of the device to detect the absence of natural light, it can be used to turn on the street lamps automatically when it becomes dark outside."
+        "Graduated with a grade of Very Good.",
+        "Graduation Project: “ITIian” – A social media app that provides a community including ITI graduates, students, and companies.",
+        "Reference: https://github.com/marstarek/ITIian.git"
       ]
     },
     {
-      degree: "Specialization Diploma in Software Engineering",
-      period: "2024 - 2025",
-      institution: "Coursera",
-      location: "Online",
+      degree: "Bachelor's Degree in Management Information Systems (MIS)",
+      period: "Sep 2015 - Jun 2019",
+      institution: "Alexandria University, Faculty of Commerce",
+      location: "Alexandria, Egypt",
       achievements: [
-        "IBM's Applied Software Engineering Fundamentals - Specialization",
-        "The Hong Kong University of Science and Technology's Software Engineering - Specialization",
-        "IBM's Introduction to DevOps - Course"
+        "Graduated with a grade of Very Good.",
+        "Ranked seventh in the department.",
+        "Graduation Project: “#shebak” – An Android app and web application that helps students obtain scholarships easily.",
+        "Project Grade: Excellent"
       ]
     }
   ];

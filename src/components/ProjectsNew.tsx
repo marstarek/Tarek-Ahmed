@@ -1,76 +1,112 @@
 import React from 'react';
-import { ExternalLink } from 'lucide-react';
+import useEmblaCarousel from 'embla-carousel-react';
 
-const ProjectsNew = () => {
-  const projects = [
+const CertificatesSection = () => {
+  const [emblaRef] = useEmblaCarousel({ loop: true });
+
+  const certificates = [
     {
-      title: "Intern2Grow",
-      description: "Virtual internship programs provider, which offers virtual internships with real tasks, so users can work on some real projects to gain work experience, and be job-ready.",
-      technologies: ["Next.js", "MongoDB", "Deno KV", "YouTube API", "Deno Runtime", "Deno Deploy", "Vercel", "Cloudflare"],
-      image: "/lovable-uploads/2d52a687-cec4-467f-a539-c61f87910077.png"
+      image: './images/certificates/cert(1).png',
     },
     {
-      title: "ContentAt",
-      description: "Content creation tool that allows users to create high-quality covers, thumbnails and PDF carousels for their social media posts, blogs, and other content.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel", "React.js"],
-      image: "/lovable-uploads/7a9f2f7c-f53b-49b7-8744-9e45af28a764.png"
+      image: './images/certificates/cert(2).png',
     },
     {
-      title: "QGame",
-      description: "Online game platform that allows users to play a collection of word, math, and memory games designed to sharpen their mind and improve their skills.",
-      technologies: ["Web Components", "MicroFrontends", "JavaScript", "HTML & CSS", "Cloudflare"],
-      image: "/lovable-uploads/2d52a687-cec4-467f-a539-c61f87910077.png"
-    }
+      image: './images/certificates/cert(3).png',
+    },
+    {
+      image: './images/certificates/cert(4).png',
+    },
+    {
+      image: './images/certificates/cert(5).png',
+    },
+    {
+      image: './images/certificates/cert(6).png',
+    },
+    {
+      image: './images/certificates/cert(7).png',
+    },
+    {
+      image: './images/certificates/cert(8).png',
+    },
+    {
+      image: './images/certificates/cert(9).png',
+    },
+    {
+      image: './images/certificates/cert(10).png',
+    },
+    {
+      image: './images/certificates/cert(11).png',
+    },
+    {
+      image: './images/certificates/cert(12).png',
+    },
+    {
+      image: './images/certificates/cert(13).png',
+    },
+    {
+      image: './images/certificates/cert(14).png',
+    },
+    {
+      image: './images/certificates/cert(15).png',
+    },
+    {
+      image: './images/certificates/cert(16).png',
+    },
+    {
+      image: './images/certificates/cert(17).png',
+    },
+    {
+      image: './images/certificates/cert(18).png',
+    },
+    {
+      image: './images/certificates/cert(19).png',
+    },
+    {
+      image: './images/certificates/cert(20).png',
+    },
+    {
+      image: './images/certificates/certp1.jpg',
+    },
+    {
+      image: './images/certificates/certp2.jpg',
+    },
+    {
+      image: './images/certificates/certp3.jpg',
+    },
+    {
+      image: './images/certificates/certp4.png',
+    },
   ];
 
   return (
-    <section id="projects" className="py-20 bg-background">
+    <section id="certificates" className="py-20 bg-background">
       <div className="container">
-        <h2 className="section-title">Hobby & Side Projects</h2>
-        <p className="section-subtitle">Showcasing my work across personal projects</p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <div className="aspect-video bg-muted rounded-t-lg overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-foreground mb-3">{project.title}</h3>
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">{project.description}</p>
-                
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.slice(0, 3).map((tech, techIndex) => (
-                    <span
-                      key={techIndex}
-                      className="px-2 py-1 bg-secondary text-secondary-foreground rounded text-xs"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                  {project.technologies.length > 3 && (
-                    <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded text-xs">
-                      +{project.technologies.length - 3}
-                    </span>
-                  )}
+        <h2 className="section-title">Certificates</h2>
+        <p className="section-subtitle">Courses and certifications I’ve completed</p>
+
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex gap-6 p-6">
+            {certificates.map((cert, index) => (
+              <div
+                key={index}
+                className="min-w-[300px] max-w-sm bg-muted rounded-lg overflow-hidden shadow-md"
+              >
+                <div className="aspect-auto w-full h-full ">
+                  <img
+                    src={cert.image}
+                    alt={`Certificate ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                
-                {project.technologies.length > 3 && (
-                  <div className="text-xs text-muted-foreground mb-4">
-                    {project.technologies.slice(3).join(', ')}
-                  </div>
-                )}
+              
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 };
 
-export default ProjectsNew;
+export default CertificatesSection;

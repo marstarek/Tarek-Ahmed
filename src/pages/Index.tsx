@@ -6,9 +6,8 @@ import ExperienceNew from '@/components/ExperienceNew';
 import Education from '@/components/Education';
 import ProjectsNew from '@/components/ProjectsNew';
 import OpenSource from '@/components/OpenSource';
-import YouTubeSection from '@/components/YouTube';
-import Articles from '@/components/Articles';
 import ConnectNew from '@/components/ConnectNew';
+import ProjectsSection from '@/components/ProjectsSection';
 
 const Index = () => {
   return (
@@ -20,9 +19,7 @@ const Index = () => {
         <ExperienceNew />
         <Education />
         <ProjectsNew />
-        <OpenSource />
-        <YouTubeSection />
-        <Articles />
+        <ProjectsSection />
         <ConnectNew />
       </main>
     </div>

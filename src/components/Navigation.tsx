@@ -18,9 +18,6 @@ const Navigation = () => {
               <a href="#experience" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Experience</a>
               <a href="#education" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Education</a>
               <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Projects</a>
-              <a href="#open-source" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Open Source</a>
-              <a href="#youtube" className="text-muted-foreground hover:text-foreground transition-colors text-sm">YouTube</a>
-              <a href="#articles" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Articles</a>
               <a href="#connect" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Connect</a>
             </div>
             <ThemeToggle />
