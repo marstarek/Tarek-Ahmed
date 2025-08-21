@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       duration: "1 Month",
       date: "2025",
       tags: ["React", "Next.js", "OCR", "AI"],
-      thumbnail: "/images/projects/ocr-app.png",
+      thumbnail: "/lovable-uploads/e19f2751-7edb-4181-9b00-32921be192cc.png",
       link: "https://ocr-app-three.vercel.app/"
     },
     {
