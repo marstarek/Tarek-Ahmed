@@ -4,6 +4,15 @@ import { ExternalLink } from 'lucide-react';
 const ProjectsSection = () => {
   const allProjects = [
     {
+      title: "OCR Tools App",
+      description: "A comprehensive OCR application with Arabic text, English text, and CV information extraction capabilities.",
+      duration: "1 Month",
+      date: "2025",
+      tags: ["React", "Next.js", "OCR", "AI"],
+      thumbnail: "/images/projects/ocr-app.png",
+      link: "https://ocr-app-three.vercel.app/"
+    },
+    {
       title: "Andalus programming education center",
       description: "A full website for programming education with modern design.",
       duration: "2 Months",
